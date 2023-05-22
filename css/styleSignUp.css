@@ -1,0 +1,52 @@
+h1 {
+    text-decoration: underline;
+    font-size: 300%;
+    position: absolute;
+    left: 10%;
+}
+
+.signUp {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    border: 5px solid black;
+    padding: 7%;
+}
+
+#id, #mdp {
+    height: 40px;
+    width: 400px;
+    text-align: center;
+    font-size: large;
+}
+
+button {
+    position: relative;
+    top: 50px;
+    left: 200px;
+    height: 40px;
+    width: 120px;
+    transition: 500ms;
+    &:hover {
+        transform: scale(1.30);
+        background-color: rgb(112, 203, 255);
+    }
+    font-size: large;
+}
+
+input:focus {
+    border: 5px solid black;
+}
+
+.seconnecter {
+    text-decoration: none;
+    position: absolute;
+    top: 57%;
+    left: 42%;
+    color: black;
+    transition: 500ms;
+    &:hover {
+        transform: scale(1.30);
+        text-decoration: underline;
+    }
+}

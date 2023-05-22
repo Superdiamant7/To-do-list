@@ -2,8 +2,9 @@
 require_once 'list.php';
 ?>
 <html>
+<?php require_once 'header.php'; ?>
     <head>
-        <link rel="stylesheet" href="style.sass">
+        <link rel="stylesheet" href="css/style.css">
         <title>Liste de tâches</title>
     </head>
     <body>

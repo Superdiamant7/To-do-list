@@ -1,0 +1,26 @@
+.header {
+    background-color: rgb(121, 121, 121);
+    display: flex;
+    height: 5%;
+    align-items: center;
+}
+
+.entitled {
+    color: white;
+    font-size: 200%;
+    position: relative;
+    left: 17.5%;
+}
+
+.nav {
+    position: relative;
+    left: 60%;
+    text-decoration: none;
+    color: white;
+    transition: 400ms;
+    font-size: 150%;
+    &:hover {
+        transform: scale(1.30);
+    }   
+    padding: 30px;
+}
