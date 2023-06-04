@@ -1,5 +1,9 @@
 <html>
-    <?php require_once 'header.php'; require_once 'newUser.php'; ?>
+    <?php require_once 'header.php'; require_once 'newUser.php'; if (isset($_COOKIE['logged']))
+{
+    header("Location: index.php");
+}
+?>
     <head>
         <link rel="stylesheet" href="css/styleSignUp.css">
         <title>S'inscrire</title>

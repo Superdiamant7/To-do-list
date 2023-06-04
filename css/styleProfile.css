@@ -1,0 +1,40 @@
+.name {
+    font-size: 200%;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+}
+
+.id {
+    font-size: 200%;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+}
+
+#newPassword {
+    font-size: large;
+    color: red;
+    position: absolute;
+    top: 27%;
+    left: 30%;
+    font-size: 200%;
+    transition: 600ms;
+    &:hover {
+        transform: scale(1.15);
+        text-decoration: underline;
+    }
+}
+
+#newPasswordEntry {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    height: 5%;
+    width: 20%;
+    text-align: center;
+    &:focus {
+        border: 5px solid black;
+    }
+    font-size: large;
+}
